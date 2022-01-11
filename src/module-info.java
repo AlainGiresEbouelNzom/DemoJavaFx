@@ -1,5 +1,6 @@
 module DemoJavaFx
 {
 	exports DemoJavaFx;
-	requires javafx.graphics;
+	requires transitive javafx.graphics;
+	requires javafx.controls;
 }
